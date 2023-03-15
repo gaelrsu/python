@@ -1,5 +1,5 @@
 import requests 
-target_url = "https://XXXXXX.com/"
+target_url = "https://MyWebSite.com/"
 username = "username"
 wordlist_path = "rockyou.txt"
 with open(wordlist_path) as wordlist_file:        #variable pour accéder aux données du fichier
