@@ -2,7 +2,7 @@ import requests
 target_url = "https://MyWebSite.com/"
 username = "username"
 wordlist_path = "rockyou.txt"
-with open(wordlist_path) as wordlist_file:        #variable pour accéder aux données du fichier
+with open(wordlist_path) as wordlist_file:        # variable pour accéder aux données du fichier
     for password in wordlist_file:
         password = password.strip()               # supprime tous les caractères indésirables ex les espaces 
         data = {"username": username, "password": password}
